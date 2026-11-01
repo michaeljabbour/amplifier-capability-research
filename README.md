@@ -2,11 +2,11 @@
 
 Make the answer traceable to the evidence.
 
-Watch the [66-second film](https://michaeljabbour.github.io/amplifier-skill-research/#film): nine crashed runs that vanish from a score, and how the skill keeps them in the count. The example in it is fictional.
+Watch the [66-second film](https://michaeljabbour.github.io/amplifier-capability-research/#film): nine crashed runs that vanish from a score, and how the skill keeps them in the count. The example in it is fictional.
 
 A research skill for decisions, experiments and papers. Build a claim-to-source chain, keep contradictions visible and use a study design that can support the conclusion you want to make.
 
-[Explore the site](https://michaeljabbour.github.io/amplifier-skill-research/) · [Read the method](skills/research/SKILL.md) · [Install guide](docs/INSTALL.md)
+[Explore the site](https://michaeljabbour.github.io/amplifier-capability-research/) · [Read the method](skills/research/SKILL.md) · [Install guide](docs/INSTALL.md)
 
 ## What you get
 
@@ -19,8 +19,8 @@ A research skill for decisions, experiments and papers. Build a claim-to-source 
 Requires Git and Python 3.11+. Run these commands from a terminal:
 
 ```sh
-git clone https://github.com/michaeljabbour/amplifier-skill-research.git
-cd amplifier-skill-research
+git clone https://github.com/michaeljabbour/amplifier-capability-research.git
+cd amplifier-capability-research
 python3 scripts/capability.py doctor
 python3 scripts/capability.py install --dest ~/.agents/skills
 ```
