@@ -29,3 +29,7 @@ Read `docs/VALIDATION.md`, `docs/MIGRATION.md`, and canonical `skills/research/S
 Added `scripts/experiment-loop/pin_intervention.sh` immediately after freeze-gate in the iteration recipe. It writes the committed intervention HEAD and repository root atomically into worktree-private Git metadata. `decide.sh keep|revert` consumes this pin, refuses changed HEAD/root, tracked/index dirtiness and untracked files endangered by reset, and propagates a reset failure. Safe untracked metric and ledger row files remain supported. Existing smoke callers now pin explicitly. Tests use fictional temporary Git repositories and injected reset failure; no live experiment/provider call.
 
 Next: preserve the pin-before-measurement caller contract. Do not replace the guarded pinned parent reset with an unguarded HEAD~1. Live account/host/experiment acceptance remains unrun.
+
+## 2026-11-01: Optional coaching documentation
+
+Added a local opt-in practice/review guide and entry links. Preserve the native direct path, existing execution budgets and source evidence. No learner trace is saved by default. Next: verify standalone guide packaging and seek authentic human/outside-user evidence before any benefit claim. No provider call or live user study is part of this documentation change.

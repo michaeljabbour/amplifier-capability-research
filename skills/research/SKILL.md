@@ -33,3 +33,7 @@ Build a claim-to-evidence outline before prose. Keep methods sufficient to repro
 ## Output
 
 Return the bounded answer/manuscript/study, claim-source map, methods and raw-record locators, actual checks, uncertainty, unresolved evidence, and the smallest next step. Optional engine checks establish software behavior only; a packaged skill, power calculation, judge score, or self-test does not establish research novelty or user benefit.
+
+## Optional coaching checkpoint
+
+Read [the local coaching guide](references/coaching-session.v1.md) only when the person asks for practice or optional session bookkeeping. Keep direct artifact production available; agree a small budget, preserve the baseline and stop on goal, user exit or no meaningful gain.
