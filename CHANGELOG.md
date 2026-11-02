@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased — staged 2026-11-02
+
+- Refuse an unreadable Git comparison in the experiment freeze gate instead of reporting an empty passing diff. Valid in-surface, out-of-surface and empty comparisons keep their prior behavior. New fictional-repository regression preserves the original failure; no empirical experiment or provider call occurred.
+
 ## Unreleased — optional coaching checkpoint
 
 - Add a self-contained opt-in practice/review guide with a fictional task, preserved baseline, explicit scope/budget, user stop, reviewed keep/revert and private-by-choice records. Keep native operations, existing method budgets and evidence rules unchanged; no human efficacy or outside-use result is claimed.

@@ -27,5 +27,19 @@ if bash "$GATE" allow.txt "HEAD~1 HEAD" >/dev/null 2>&1; then
     echo "FAIL: out-of-surface change was allowed"
     exit 1
 fi
+# A comparison which could not be read is not an empty, passing comparison.
+if bash "$GATE" allow.txt "revision-does-not-exist HEAD" > invalid.out 2> invalid.err; then
+    echo "FAIL: an invalid revision was reported as a passing freeze gate"
+    exit 1
+fi
+if grep -q 'freeze_gate: OK' invalid.out; then
+    echo "FAIL: an unreadable comparison printed a success claim"
+    exit 1
+fi
+# A genuinely empty comparison is still allowed.
+if ! bash "$GATE" allow.txt "HEAD HEAD" >/dev/null 2>&1; then
+    echo "FAIL: an empty valid comparison was rejected"
+    exit 1
+fi
 echo "PASS: freeze_gate"
 exit 0

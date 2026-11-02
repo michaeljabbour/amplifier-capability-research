@@ -39,7 +39,10 @@ patterns="${patterns}${allowlist}
 "
 
 # shellcheck disable=SC2086
-changed=$(git diff --name-only $diff_spec)
+if ! changed=$(git diff --name-only $diff_spec); then
+    echo "freeze_gate: cannot read the requested comparison; surface not checked" >&2
+    exit 2
+fi
 
 violations=0
 while IFS= read -r f; do

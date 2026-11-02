@@ -5,3 +5,5 @@
 `pin_intervention.sh` snapshots the committed iteration revision in worktree-private Git metadata before measurement; `decide.sh` validates and consumes that pin for keep/revert. `tests/test_decision_guards.py` and its shell wrapper cover destructive-failure boundaries offline.
 
 `skills/research/references/coaching-session.v1.md` is the self-contained opt-in practice guide. Native implementation, protocol and execution modes remain unchanged.
+
+`project-context/WAYSOFWORKING.md` records the explicit diff-error handling rule. `project-context/EXPERIMENT_JOURNAL.md` records the fictional helper regression, distinct from empirical outcomes.

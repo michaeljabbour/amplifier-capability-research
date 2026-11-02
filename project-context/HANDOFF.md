@@ -33,3 +33,7 @@ Next: preserve the pin-before-measurement caller contract. Do not replace the gu
 ## 2026-11-01: Optional coaching documentation
 
 Added a local opt-in practice/review guide and entry links. Preserve the native direct path, existing execution budgets and source evidence. No learner trace is saved by default. Next: verify standalone guide packaging and seek authentic human/outside-user evidence before any benefit claim. No provider call or live user study is part of this documentation change.
+
+## 2026-11-02 — Staged freeze-gate failure boundary
+
+The local review branch now refuses a Git diff error before printing a passing surface result. A new invalid-revision trap fails on the baseline and passes on the candidate; valid changed/unchanged controls remain. All experiment-loop helper files pass. This is source/fixture evidence only, not a provider or research outcome. Preserve the original failure log in the private portfolio campaign. Publication remains pending comprehensive owner review.
